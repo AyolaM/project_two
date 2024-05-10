@@ -1,0 +1,27 @@
+
+@RestController
+
+@GetMapping
+GET /warehouses – retrieves all warehouses
+
+GET /warehouses/id – retrieves data on the warehouse
+
+GET /products – retrieves all products
+
+GET /products/id – retrieves products by product id
+
+@PostMapping
+POST /products – creates a new product entry in the database
+
+@PutMapping
+PUT /products/id – updates product entry in the database
+
+@DeleteMapping
+DELETE /products/id – deletes product entry in the database
+
+
+
+
+
+
+
