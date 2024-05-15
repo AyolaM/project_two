@@ -1,6 +1,10 @@
 # define the DataSource configuration.
 spring:
-    datasource:
-        url: jdbc:mysql://localhost:3306/?user=root/warehouses
-        username: root
-        password: Hlumelo14@
+  datasource:
+    url: jdbc:mysql://localhost:3306/Ayo_Shoe_Store
+    username: root
+    password: Hlumelo14@
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
